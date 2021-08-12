@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CPE 2顆星 on Coder&#39;s notes</title>
+    <link>https://wujzan.github.io/categories/cpe-2%E9%A1%86%E6%98%9F/</link>
+    <description>Recent content in CPE 2顆星 on Coder&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Aug 2021 10:07:47 +0600</lastBuildDate><atom:link href="https://wujzan.github.io/categories/cpe-2%E9%A1%86%E6%98%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[UVA11489] Integer Game</title>
+      <link>https://wujzan.github.io/blog/uva11489-integer-game/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11489-integer-game/</guid>
+      <description>兩人輪流拿掉一個數字，且剩下的位數和是3的倍數才能拿</description>
+    </item>
+    
+  </channel>
+</rss>

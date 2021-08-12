@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Coder&#39;s notes</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Coder">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://wujzan.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://wujzan.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://wujzan.github.io/"><img class="img-fluid"
+          src="https://wujzan.github.io/images/logo.png" alt="Coder&#39;s notes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://wujzan.github.io/"><img class="img-fluid"
+            src="https://wujzan.github.io/images/logo.png" alt="Coder&#39;s notes"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://wujzan.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://wujzan.github.io/blog">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://wujzan.github.io//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/data-structure"
+          class="text-primary">Data structure</a>
+        
+        <h2>[UVA11374] Airport Express</h2>
+        <div class="mb-3 post-meta">
+          <span>By Coder</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>06 August 2021</span>
+          
+		  
+		  		  
+		  
+		  
+		
+		
+		
+		<div id="sharing">
+			<a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwujzan.github.io%2fblog%2fuva11374-airport-express%2f" class="facebook" aria-label="share on Facebook">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+			</a>
+
+			<a href="http://twitter.com/share?url=https%3a%2f%2fwujzan.github.io%2fblog%2fuva11374-airport-express%2f&text=%5bUVA11374%5d%20Airport%20Express&via=" class="twitter" aria-label="share on Twitter">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+			</a>
+
+			<a href="mailto:?subject=Check%20out%20%5bUVA11374%5d%20Airport%20Express.&body=%5bUVA11374%5d%20Airport%20Express%2c%20by%20Coder%27s%20notes%0a%3cnil%3e%0a%0ahttps%3a%2f%2fwujzan.github.io%2fblog%2fuva11374-airport-express%2f%0a" class="twitter" aria-label="share on Email">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+			</a>  
+
+		
+			<div class="line-it-button" data-lang="zh_Hant" data-type="share-a" data-ver="3" data-url="https://wujzan.github.io/blog/uva11374-airport-express/" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
+			<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>   
+		</div>
+		  
+		  
+		  
+        </div>
+        
+        <div class="content mb-5">
+          <p><a href="https://onlinejudge.org/index.php?option=onlinejudge&amp;page=show_problem&amp;problem=2369" title="原文題目">原文題目</a></p>
+<h5 id="中文翻譯">中文翻譯:</h5>
+<p>在Iokh市中，機場快線是市民從市內去機場的首選交通工具。機場快線分為經濟線和商業線兩種，線路、速度和價錢都不同。
+你有一張商業線車票，可以坐一站商業線，而其他時候只能乘坐經濟線。
+假設換乘時間忽略不計，你的任務是找一條去機場最快的線路。</p>
+<p>輸入格式：</p>
+<p>輸入包含多組資料。
+每組資料第一行為3個整數<code>N,S和E</code>(2&lt;=N&lt;=500,1&lt;=S,E&lt;=N)，即機場快線中的車站總數，起點和終點（即機場所在站）編號。
+下一行包含一個整數<code>M</code>(1&lt;=M&lt;=1000)，即經濟線的路段條數。
+以下M行每行3個整數<code>X,Y,Z</code>(X,Y&lt;=N,1&lt;=Z&lt;=100)，表示可以乘坐經濟線在車站X和車站Y之間往返，其中單程需要Z分鐘。
+下一行為商業線的路段條數<code>K</code>(1&lt;=K&lt;=1000)，以下K行是這些路段的描述，格式同經濟線。
+所有路段都是雙向的，但有可能必須使用商業車票才能到達機場。保證最優解唯一。</p>
+<p>輸出格式:</p>
+<p>對於每組資料，輸出3行。
+第一行按訪問順序給出經過的各個車站（包括起點和終點），第二行是換乘商業線的車站編號（如果沒有商業線車票，輸出<code>Ticket Not Used</code>），第三行是總時間。</p>
+<p>Translated by <a href="https://www.luogu.com.cn/problem/UVA11374">@andyli</a></p>
+<h5 id="java程式碼">Java程式碼</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">java.util.Scanner</span>;
+<span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">java.util.Vector</span>;
+
+<span style="color:#8b008b;font-weight:bold">class</span> <span style="color:#008b45;font-weight:bold">node</span>{
+	<span style="color:#00688b;font-weight:bold">int</span> to,cost;
+}
+	
+<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">class</span> <span style="color:#008b45;font-weight:bold">uva11374</span> {
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span> N=501;
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span> INF=99999;
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> Vector&lt;node&gt;[] edge=<span style="color:#8b008b;font-weight:bold">new</span> Vector[N];
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span>[] dis_s;
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span>[] dis_e;
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span>[] parent_s;
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span>[] parent_e;
+	
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">main</span>(String[] args) {
+		Scanner sc=<span style="color:#8b008b;font-weight:bold">new</span> Scanner(System.<span style="color:#658b00">in</span>);
+		
+		<span style="color:#00688b;font-weight:bold">int</span> n, s, e, m, k;
+		<span style="color:#00688b;font-weight:bold">int</span> x, y, cost;
+		<span style="color:#00688b;font-weight:bold">boolean</span> flag=<span style="color:#8b008b;font-weight:bold">false</span>;  <span style="color:#228b22">//case之間的間隔換行 做記號
+</span><span style="color:#228b22"></span>		
+		<span style="color:#8b008b;font-weight:bold">while</span>(sc.<span style="color:#658b00">hasNext</span>()) {
+			n=sc.<span style="color:#658b00">nextInt</span>(); <span style="color:#228b22">//車站總數
+</span><span style="color:#228b22"></span>			s=sc.<span style="color:#658b00">nextInt</span>(); <span style="color:#228b22">//起點編號
+</span><span style="color:#228b22"></span>			e=sc.<span style="color:#658b00">nextInt</span>(); <span style="color:#228b22">//終點編號
+</span><span style="color:#228b22"></span>		
+			<span style="color:#228b22">/*for(int i=1;i&lt;=n;i++)  	//Runtime error
+</span><span style="color:#228b22">				edge[i]=new Vector&lt;node&gt;();*/</span>
+			
+			<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> i=0;i&lt;N;i++)
+					edge[i]=<span style="color:#8b008b;font-weight:bold">new</span> Vector&lt;node&gt;();	
+				
+			dis_s=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[N];
+			dis_e=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[N];
+			parent_s=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[N];
+			parent_e=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[N];
+								
+			m=sc.<span style="color:#658b00">nextInt</span>(); <span style="color:#228b22">//經濟線
+</span><span style="color:#228b22"></span>			<span style="color:#8b008b;font-weight:bold">while</span>(m--!=0) {
+				x=sc.<span style="color:#658b00">nextInt</span>();
+				y=sc.<span style="color:#658b00">nextInt</span>();
+				cost=sc.<span style="color:#658b00">nextInt</span>();
+				
+				node tempX=<span style="color:#8b008b;font-weight:bold">new</span> node();
+				tempX.<span style="color:#658b00">to</span>=y;
+				tempX.<span style="color:#658b00">cost</span>=cost;
+				
+				node tempY=<span style="color:#8b008b;font-weight:bold">new</span> node();
+				tempY.<span style="color:#658b00">to</span>=x;
+				tempY.<span style="color:#658b00">cost</span>=cost;
+				
+				edge[x].<span style="color:#658b00">add</span>(tempX);
+				edge[y].<span style="color:#658b00">add</span>(tempY);
+			}
+			
+			Dijkstra(n,s,dis_s,parent_s);	<span style="color:#228b22">//以s為起點的Dijkstra
+</span><span style="color:#228b22"></span>			Dijkstra(n,e,dis_e,parent_e);	<span style="color:#228b22">//以e為起點的Dijkstra
+</span><span style="color:#228b22"></span>						
+			k=sc.<span style="color:#658b00">nextInt</span>();  <span style="color:#228b22">//商業線
+</span><span style="color:#228b22"></span>			<span style="color:#00688b;font-weight:bold">int</span> distance=dis_s[e];			
+			<span style="color:#00688b;font-weight:bold">int</span> ts=0,te=0;
+			<span style="color:#8b008b;font-weight:bold">while</span>(k--!=0) {
+				x=sc.<span style="color:#658b00">nextInt</span>();
+				y=sc.<span style="color:#658b00">nextInt</span>();
+				cost=sc.<span style="color:#658b00">nextInt</span>();
+			
+				<span style="color:#8b008b;font-weight:bold">if</span>(dis_s[x]+cost+dis_e[y] &lt; distance) {
+					distance=dis_s[x]+cost+dis_e[y];
+					ts=x;
+					te=y;
+				}
+				<span style="color:#8b008b;font-weight:bold">if</span>(dis_s[y]+cost+dis_e[x] &lt; distance) {
+					distance=dis_s[y]+cost+dis_e[x];
+					ts=y;
+					te=x;
+				}				
+			}
+			
+			<span style="color:#00688b;font-weight:bold">int</span> station=ts;  <span style="color:#228b22">//換乘商業線的車站編號
+</span><span style="color:#228b22"></span>			<span style="color:#8b008b;font-weight:bold">if</span>(flag) System.<span style="color:#658b00">out</span>.<span style="color:#658b00">println</span>();  <span style="color:#228b22">//各case之間的間隔換行
+</span><span style="color:#228b22"></span>			flag=<span style="color:#8b008b;font-weight:bold">true</span>;			
+
+			<span style="color:#8b008b;font-weight:bold">if</span>(ts==0 &amp;&amp; te==0) {  <span style="color:#228b22">//不需要商業線
+</span><span style="color:#228b22"></span>				<span style="color:#8b008b;font-weight:bold">while</span>(s != e) {
+					System.<span style="color:#658b00">out</span>.<span style="color:#658b00">print</span>(s+<span style="color:#cd5555">&#34; &#34;</span>);
+					s=parent_e[s];
+				}
+				System.<span style="color:#658b00">out</span>.<span style="color:#658b00">println</span>(e);
+			}<span style="color:#8b008b;font-weight:bold">else</span> {
+				<span style="color:#00688b;font-weight:bold">int</span> buffer[]=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[N];
+	            <span style="color:#00688b;font-weight:bold">int</span> index=0;
+	 
+	            <span style="color:#8b008b;font-weight:bold">while</span>(ts != s) {
+	                buffer[index++]=ts;
+	                ts=parent_s[ts];
+	            }
+	            buffer[index++]=s;	 
+	            <span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> i=index-1; i &gt;= 0 ;i--)
+	            	System.<span style="color:#658b00">out</span>.<span style="color:#658b00">print</span>(buffer[i]+<span style="color:#cd5555">&#34; &#34;</span>);	 
+	            
+	            <span style="color:#8b008b;font-weight:bold">while</span>(te != e) {
+	            	System.<span style="color:#658b00">out</span>.<span style="color:#658b00">print</span>(te+<span style="color:#cd5555">&#34; &#34;</span>);	                
+	                te = parent_e[te];
+	            }	            
+	            System.<span style="color:#658b00">out</span>.<span style="color:#658b00">println</span>(e);
+			}
+			
+			<span style="color:#8b008b;font-weight:bold">if</span>(station==0)
+				System.<span style="color:#658b00">out</span>.<span style="color:#658b00">println</span>(<span style="color:#cd5555">&#34;Ticket Not Used&#34;</span>);
+			<span style="color:#8b008b;font-weight:bold">else</span>
+				System.<span style="color:#658b00">out</span>.<span style="color:#658b00">println</span>(station);
+			
+			System.<span style="color:#658b00">out</span>.<span style="color:#658b00">println</span>(distance);  <span style="color:#228b22">//總時間
+</span><span style="color:#228b22"></span>		}		
+	}
+	
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">Dijkstra</span>(<span style="color:#00688b;font-weight:bold">int</span> n,<span style="color:#00688b;font-weight:bold">int</span> s,<span style="color:#00688b;font-weight:bold">int</span>[] dis,<span style="color:#00688b;font-weight:bold">int</span>[] parent) {
+		<span style="color:#00688b;font-weight:bold">boolean</span>[] vis=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">boolean</span>[N];
+		<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> i=1;i&lt;=n;i++) {
+			dis[i]=INF;
+			vis[i]=<span style="color:#8b008b;font-weight:bold">false</span>;
+		}
+		dis[s]=0;
+		parent[s]=s;
+		
+		<span style="color:#00688b;font-weight:bold">int</span> shortest_vertex,min;
+		<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> t=1; t&lt;=n ;t++) {
+			shortest_vertex=0;
+			min=INF;
+			<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> i=1;i&lt;=n;i++) {
+				<span style="color:#8b008b;font-weight:bold">if</span>(vis[i]==<span style="color:#8b008b;font-weight:bold">false</span> &amp;&amp; dis[i]&lt;min) {
+					min=dis[i];
+					shortest_vertex=i;
+				}
+			}		
+			vis[shortest_vertex]=<span style="color:#8b008b;font-weight:bold">true</span>;
+			
+			<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> i=0;i&lt;edge[shortest_vertex].<span style="color:#658b00">size</span>();i++) {	<span style="color:#228b22">//Vector 從i=0開始
+</span><span style="color:#228b22"></span>				<span style="color:#00688b;font-weight:bold">int</span> v=edge[shortest_vertex].<span style="color:#658b00">get</span>(i).<span style="color:#658b00">to</span>;	<span style="color:#228b22">//能連到的那個點
+</span><span style="color:#228b22"></span>				<span style="color:#00688b;font-weight:bold">int</span> w=edge[shortest_vertex].<span style="color:#658b00">get</span>(i).<span style="color:#658b00">cost</span>;	<span style="color:#228b22">//花費分鐘
+</span><span style="color:#228b22"></span>				<span style="color:#8b008b;font-weight:bold">if</span>(vis[v]==<span style="color:#8b008b;font-weight:bold">false</span> &amp;&amp; dis[shortest_vertex]+w&lt;dis[v]) {
+					dis[v]=dis[shortest_vertex]+w;
+					parent[v]=shortest_vertex;
+				}	
+				
+			}			
+		}		
+	}
+	
+}
+
+<span style="color:#228b22">/*
+</span><span style="color:#228b22">Sample Input
+</span><span style="color:#228b22">4 1 4
+</span><span style="color:#228b22">4
+</span><span style="color:#228b22">1 2 2
+</span><span style="color:#228b22">1 3 3
+</span><span style="color:#228b22">2 4 4
+</span><span style="color:#228b22">3 4 5
+</span><span style="color:#228b22">1
+</span><span style="color:#228b22">2 4 3
+</span><span style="color:#228b22">
+</span><span style="color:#228b22">Sample Output
+</span><span style="color:#228b22">1 2 4
+</span><span style="color:#228b22">2
+</span><span style="color:#228b22">5 
+</span><span style="color:#228b22">*/</span>
+</code></pre></div>
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "codersnote" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      
+            
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2021 All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://wujzan.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://wujzan.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/search/mark.js"></script>
+
+<script src="https://wujzan.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://wujzan.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

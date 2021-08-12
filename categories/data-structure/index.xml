@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Structure on Coder&#39;s notes</title>
+    <link>https://wujzan.github.io/categories/data-structure/</link>
+    <description>Recent content in Data Structure on Coder&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Aug 2021 10:07:47 +0600</lastBuildDate><atom:link href="https://wujzan.github.io/categories/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[UVA10409] DieGame</title>
+      <link>https://wujzan.github.io/blog/uva10409-diegame/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10409-diegame/</guid>
+      <description>輸入指令轉動骰子，求面向上的數字</description>
+    </item>
+    
+    <item>
+      <title>[UVA10603] Fill</title>
+      <link>https://wujzan.github.io/blog/uva10603-fill/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10603-fill/</guid>
+      <description>(經典)倒水問題</description>
+    </item>
+    
+    <item>
+      <title>[UVA10642] Can You Solve It</title>
+      <link>https://wujzan.github.io/blog/uva10642-can-you-solve-it/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10642-can-you-solve-it/</guid>
+      <description>XY平面上，給起點&amp;amp;終點座標，求步數</description>
+    </item>
+    
+    <item>
+      <title>[UVA11332] Summing Digits</title>
+      <link>https://wujzan.github.io/blog/uva11332-summing-digits/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11332-summing-digits/</guid>
+      <description>各位數字相加，印出不大於10的最終數字</description>
+    </item>
+    
+    <item>
+      <title>[UVA11374] Airport Express</title>
+      <link>https://wujzan.github.io/blog/uva11374-airport-express/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11374-airport-express/</guid>
+      <description>可以坐一站商業線，而其他時候只能乘坐經濟線</description>
+    </item>
+    
+    <item>
+      <title>[UVA11389] The Bus Driver Problem</title>
+      <link>https://wujzan.github.io/blog/uva11389-the-bus-driver-problem/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11389-the-bus-driver-problem/</guid>
+      <description>輸出需要支付司機的最小加班費</description>
+    </item>
+    
+    <item>
+      <title>[UVA264] Count on Cantor</title>
+      <link>https://wujzan.github.io/blog/uva264-count-on-cantor/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva264-count-on-cantor/</guid>
+      <description>1/1..1/2..2/1..3/1..2/2 找出位置是多少</description>
+    </item>
+    
+    <item>
+      <title>[UVA406] Prime Cuts</title>
+      <link>https://wujzan.github.io/blog/uva406-prime-cuts/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva406-prime-cuts/</guid>
+      <description>印出質數</description>
+    </item>
+    
+    <item>
+      <title>[UVA673] Parentheses Balance</title>
+      <link>https://wujzan.github.io/blog/uva673-parentheses-balance/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva673-parentheses-balance/</guid>
+      <description>判斷括號是否正確的運算式</description>
+    </item>
+    
+    <item>
+      <title>[UVA727] Equation</title>
+      <link>https://wujzan.github.io/blog/uva727-equation/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva727-equation/</guid>
+      <description>將中序式 轉換成 後序式</description>
+    </item>
+    
+    <item>
+      <title>[UVA750] 8 Queens Chess Problem</title>
+      <link>https://wujzan.github.io/blog/uva750-8-queens-chess-problem/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva750-8-queens-chess-problem/</guid>
+      <description>(經典)八皇后問題</description>
+    </item>
+    
+    <item>
+      <title>資料結構上機考(1)</title>
+      <link>https://wujzan.github.io/blog/data-structure-exam1/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/data-structure-exam1/</guid>
+      <description>第一次上機考</description>
+    </item>
+    
+    <item>
+      <title>資料結構上機考(2)</title>
+      <link>https://wujzan.github.io/blog/data-structure-exam2/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/data-structure-exam2/</guid>
+      <description>第二次上機考</description>
+    </item>
+    
+    <item>
+      <title>資料結構上機考(3)</title>
+      <link>https://wujzan.github.io/blog/data-structure-exam3/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/data-structure-exam3/</guid>
+      <description>第三次上機考</description>
+    </item>
+    
+  </channel>
+</rss>

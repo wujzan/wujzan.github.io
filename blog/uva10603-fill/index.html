@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Coder&#39;s notes</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Coder">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://wujzan.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://wujzan.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://wujzan.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://wujzan.github.io/"><img class="img-fluid"
+          src="https://wujzan.github.io/images/logo.png" alt="Coder&#39;s notes"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://wujzan.github.io/"><img class="img-fluid"
+            src="https://wujzan.github.io/images/logo.png" alt="Coder&#39;s notes"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://wujzan.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://wujzan.github.io/blog">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://wujzan.github.io//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/data-structure"
+          class="text-primary">Data structure</a>
+        
+        <h2>[UVA10603] Fill</h2>
+        <div class="mb-3 post-meta">
+          <span>By Coder</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>06 August 2021</span>
+          
+		  
+		  		  
+		  
+		  
+		
+		
+		
+		<div id="sharing">
+			<a href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwujzan.github.io%2fblog%2fuva10603-fill%2f" class="facebook" aria-label="share on Facebook">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+			</a>
+
+			<a href="http://twitter.com/share?url=https%3a%2f%2fwujzan.github.io%2fblog%2fuva10603-fill%2f&text=%5bUVA10603%5d%20Fill&via=" class="twitter" aria-label="share on Twitter">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+			</a>
+
+			<a href="mailto:?subject=Check%20out%20%5bUVA10603%5d%20Fill.&body=%5bUVA10603%5d%20Fill%2c%20by%20Coder%27s%20notes%0a%3cnil%3e%0a%0ahttps%3a%2f%2fwujzan.github.io%2fblog%2fuva10603-fill%2f%0a" class="twitter" aria-label="share on Email">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+			</a>  
+
+		
+			<div class="line-it-button" data-lang="zh_Hant" data-type="share-a" data-ver="3" data-url="https://wujzan.github.io/blog/uva10603-fill/" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
+			<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>   
+		</div>
+		  
+		  
+		  
+        </div>
+        
+        <div class="content mb-5">
+          <p><a href="https://onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;page=show_problem&amp;problem=1544" title="原文題目">原文題目</a></p>
+<p><a href="https://zerojudge.tw/ShowProblem?problemid=f505" title="中文翻譯">中文翻譯</a></p>
+<p>倒水問題 BFS</p>
+<p>輸入A,B,C三杯子的容量，A,B為空杯子,C為裝滿水</p>
+<p>後相倒水，倒到自己倒空或是別人杯子倒滿為止</p>
+<p>如無法做到恰好D升, 就倒D&rsquo;升, D'&lt;D儘量接近</p>
+<blockquote>
+<p>2019-03-26 CPE 第七題 ,官方<a href="https://cpe.cse.nsysu.edu.tw/cpe/file/attendance/problemPdf/10603.php">code</a></p>
+</blockquote>
+<p>由CPE官方C++解答改寫成Java</p>
+<h5 id="java程式碼">Java程式碼</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">java.util.*</span>;
+
+<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">class</span> <span style="color:#008b45;font-weight:bold">Main</span>{
+
+  <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span> A, B, C, D;	
+  <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span>[][] water=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[201][201];	<span style="color:#228b22">//三杯水的總和固定,開二維陣列即可
+</span><span style="color:#228b22"></span>  <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span>[] ans=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[201];	<span style="color:#228b22">//不大於200升 --&gt; 0~200
+</span><span style="color:#228b22"></span>	
+  <span style="color:#8b008b;font-weight:bold">static</span> Queue&lt;Integer&gt; queuea = <span style="color:#8b008b;font-weight:bold">new</span> LinkedList&lt;Integer&gt;();
+  <span style="color:#8b008b;font-weight:bold">static</span> Queue&lt;Integer&gt; queueb = <span style="color:#8b008b;font-weight:bold">new</span> LinkedList&lt;Integer&gt;();
+  <span style="color:#8b008b;font-weight:bold">static</span> Queue&lt;Integer&gt; queuec = <span style="color:#8b008b;font-weight:bold">new</span> LinkedList&lt;Integer&gt;();
+  <span style="color:#8b008b;font-weight:bold">static</span> Queue&lt;Integer&gt; queuetotal = <span style="color:#8b008b;font-weight:bold">new</span> LinkedList&lt;Integer&gt;();
+
+  <span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">Main</span>(String[] args) { 	 <span style="color:#228b22">//uva10603
+</span><span style="color:#228b22"></span>    Scanner sc=<span style="color:#8b008b;font-weight:bold">new</span> Scanner(System.<span style="color:#658b00">in</span>);
+    <span style="color:#00688b;font-weight:bold">int</span> T=sc.<span style="color:#658b00">nextInt</span>();
+    <span style="color:#8b008b;font-weight:bold">while</span>(T--!=0){
+    	<span style="color:#00688b;font-weight:bold">int</span> n, i, j, k;
+    
+    	A=sc.<span style="color:#658b00">nextInt</span>();
+    	B=sc.<span style="color:#658b00">nextInt</span>();
+    	C=sc.<span style="color:#658b00">nextInt</span>();
+		D=sc.<span style="color:#658b00">nextInt</span>();
+    
+    	<span style="color:#8b008b;font-weight:bold">for</span> (i = 0; i &lt;= A; i++)
+    		<span style="color:#8b008b;font-weight:bold">for</span> (j = 0; j &lt;= B; j++)
+        		water[i][j] = Integer.<span style="color:#658b00">MAX_VALUE</span>;
+				
+    	<span style="color:#8b008b;font-weight:bold">for</span> (i = 0; i &lt;= D; i++)
+        	ans[i] = Integer.<span style="color:#658b00">MAX_VALUE</span>;
+			
+   		bfs(0, 0, C, 0);
+		
+    	<span style="color:#8b008b;font-weight:bold">for</span> (i = D; ans[i] == Integer.<span style="color:#658b00">MAX_VALUE</span> ; i--);
+    
+    	System.<span style="color:#658b00">out</span>.<span style="color:#658b00">println</span>(ans[i]+<span style="color:#cd5555">&#34; &#34;</span>+i);	
+		<span style="color:#228b22">//ans[i]--&gt;最小倒水量	i--&gt;目標水量
+</span><span style="color:#228b22"></span>    }
+  }
+  
+  <span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">bfs</span>(<span style="color:#00688b;font-weight:bold">int</span> a, <span style="color:#00688b;font-weight:bold">int</span> b, <span style="color:#00688b;font-weight:bold">int</span> c, <span style="color:#00688b;font-weight:bold">int</span> total){
+    pushnode(a, b, c, total);
+    <span style="color:#8b008b;font-weight:bold">while</span> (!queuea.<span style="color:#658b00">isEmpty</span>()){
+    	a = queuea.<span style="color:#658b00">remove</span>();    	
+        b = queueb.<span style="color:#658b00">remove</span>();
+        c = queuec.<span style="color:#658b00">remove</span>();
+        total = queuetotal.<span style="color:#658b00">remove</span>();
+        update(a, b, c, total);
+    }
+  }
+  
+  <span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">pushnode</span>(<span style="color:#00688b;font-weight:bold">int</span> a, <span style="color:#00688b;font-weight:bold">int</span> b, <span style="color:#00688b;font-weight:bold">int</span> c, <span style="color:#00688b;font-weight:bold">int</span> total){
+    queuea.<span style="color:#658b00">add</span>(a); queueb.<span style="color:#658b00">add</span>(b); queuec.<span style="color:#658b00">add</span>(c); queuetotal.<span style="color:#658b00">add</span>(total);
+  }
+
+  <span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">update</span>(<span style="color:#00688b;font-weight:bold">int</span> a, <span style="color:#00688b;font-weight:bold">int</span> b, <span style="color:#00688b;font-weight:bold">int</span> c, <span style="color:#00688b;font-weight:bold">int</span> total){
+    <span style="color:#8b008b;font-weight:bold">if</span> (total &gt;= ans[D]) <span style="color:#8b008b;font-weight:bold">return</span>;
+    <span style="color:#8b008b;font-weight:bold">if</span> (total &gt;= water[a][b]) <span style="color:#8b008b;font-weight:bold">return</span>;
+    water[a][b] = total;
+    ans[a] = Math.<span style="color:#658b00">min</span>(ans[a], total);
+    ans[b] = Math.<span style="color:#658b00">min</span>(ans[b], total);
+    ans[c] = Math.<span style="color:#658b00">min</span>(ans[c], total);
+	
+	<span style="color:#228b22">/*
+</span><span style="color:#228b22">	大寫&#34;C&#34;杯子容量上限
+</span><span style="color:#228b22">	小寫&#34;c&#34;目前杯中水量
+</span><span style="color:#228b22">	杯子&#34;C-c&#34;還能倒的容量
+</span><span style="color:#228b22">	*/</span>
+	
+    <span style="color:#8b008b;font-weight:bold">if</span> (a &lt;= C - c)
+        pushnode(0, b, c+a, total+a);
+    <span style="color:#8b008b;font-weight:bold">else</span>
+        pushnode(a-C+c, b, C, total+C-c);
+    <span style="color:#8b008b;font-weight:bold">if</span> (a &lt;= B - b)
+        pushnode(0, b+a, c, total+a);
+    <span style="color:#8b008b;font-weight:bold">else</span>
+        pushnode(a-B+b, B, c, total+B-b);
+    <span style="color:#8b008b;font-weight:bold">if</span> (b &lt;= C - c)
+        pushnode(a, 0, c+b, total+b);
+    <span style="color:#8b008b;font-weight:bold">else</span>
+        pushnode(a, b-C+c, C, total+C-c);
+    <span style="color:#8b008b;font-weight:bold">if</span> (b &lt;= A - a)
+        pushnode(a+b, 0, c, total+b);
+    <span style="color:#8b008b;font-weight:bold">else</span>
+        pushnode(A, b-A+a, c, total+A-a);
+    <span style="color:#8b008b;font-weight:bold">if</span> (c &lt;= A - a)
+        pushnode(a+c, b, 0, total+c);
+    <span style="color:#8b008b;font-weight:bold">else</span>
+        pushnode(A, b, c-A+a, total+A-a);
+    <span style="color:#8b008b;font-weight:bold">if</span> (c &lt;= B - b)
+        pushnode(a, b+c, 0, total+c);
+    <span style="color:#8b008b;font-weight:bold">else</span>
+        pushnode(a, B, c-B+b, total+B-b);
+  }  
+  
+};
+</code></pre></div><hr>
+<p>另解</p>
+<h5 id="java程式碼-1">Java程式碼</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">java.util.Arrays</span>;
+<span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">java.util.Comparator</span>;
+<span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">java.util.PriorityQueue</span>;
+<span style="color:#8b008b;font-weight:bold">import</span> <span style="color:#008b45;text-decoration:underline">java.util.Scanner</span>;
+
+<span style="color:#8b008b;font-weight:bold">class</span> <span style="color:#008b45;font-weight:bold">node</span> {
+	<span style="color:#00688b;font-weight:bold">int</span>[] v=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[3];
+	<span style="color:#00688b;font-weight:bold">int</span> vol;
+
+	node() {}
+	node(node n){
+		<span style="color:#8b008b;font-weight:bold">this</span>.<span style="color:#658b00">vol</span>=n.<span style="color:#658b00">vol</span>;
+		
+		<span style="color:#8b008b;font-weight:bold">this</span>.<span style="color:#658b00">v</span>[0]=n.<span style="color:#658b00">v</span>[0];
+		<span style="color:#8b008b;font-weight:bold">this</span>.<span style="color:#658b00">v</span>[1]=n.<span style="color:#658b00">v</span>[1];
+		<span style="color:#8b008b;font-weight:bold">this</span>.<span style="color:#658b00">v</span>[2]=n.<span style="color:#658b00">v</span>[2];
+	}
+		
+}
+
+<span style="color:#8b008b;font-weight:bold">class</span> <span style="color:#008b45;font-weight:bold">toSortTemplate</span> <span style="color:#8b008b;font-weight:bold">implements</span> Comparator&lt;node&gt;{
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#00688b;font-weight:bold">int</span> <span style="color:#008b45">compare</span>(node o1,node o2){
+		<span style="color:#8b008b;font-weight:bold">if</span>(o1.<span style="color:#658b00">vol</span>&gt;o2.<span style="color:#658b00">vol</span>) <span style="color:#8b008b;font-weight:bold">return</span> 1;
+		<span style="color:#8b008b;font-weight:bold">if</span>(o1.<span style="color:#658b00">vol</span>&lt;o2.<span style="color:#658b00">vol</span>) <span style="color:#8b008b;font-weight:bold">return</span> -1;
+		<span style="color:#8b008b;font-weight:bold">return</span> 0;		 
+	}
+}
+
+<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">class</span> <span style="color:#008b45;font-weight:bold">Main</span> {		<span style="color:#228b22">//uva10603 狀態空間搜索(狀態樹)
+</span><span style="color:#228b22"></span>	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span> maxn=201,a,b,c,d;
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">boolean</span>[][] vis=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">boolean</span>[maxn][maxn];
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span>[] ans=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[maxn];
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">int</span>[] cap=<span style="color:#8b008b;font-weight:bold">new</span> <span style="color:#00688b;font-weight:bold">int</span>[3];
+	
+	<span style="color:#228b22">//public static Queue&lt;node&gt; Q=new LinkedList&lt;node&gt;();  //若用Queue CPE測資(太弱)過，但OJ Wrong answer
+</span><span style="color:#228b22"></span>	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> PriorityQueue&lt;node&gt; Q=<span style="color:#8b008b;font-weight:bold">new</span> PriorityQueue&lt;node&gt;(<span style="color:#8b008b;font-weight:bold">new</span> toSortTemplate());
+	<span style="color:#228b22">//為了保證vol(倒水量)最小，可以把狀態扔進以vol從小到大排序的PriorityQueue裡，此時每次取出的都很可能是當前vol對應的倒水量最少的狀態， 用它更新vol對應的答案。直到結束。
+</span><span style="color:#228b22"></span>	
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">main</span>(String[] args) {
+		Scanner sc=<span style="color:#8b008b;font-weight:bold">new</span> Scanner(System.<span style="color:#658b00">in</span>);
+
+		<span style="color:#00688b;font-weight:bold">int</span> T=sc.<span style="color:#658b00">nextInt</span>();
+		<span style="color:#8b008b;font-weight:bold">while</span>(T--!=0) {
+			a=sc.<span style="color:#658b00">nextInt</span>();
+			b=sc.<span style="color:#658b00">nextInt</span>();
+			c=sc.<span style="color:#658b00">nextInt</span>();
+			d=sc.<span style="color:#658b00">nextInt</span>();
+			
+			<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> i=0;i&lt;maxn;i++)
+				<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> j=0;j&lt;maxn;j++)
+					vis[i][j]=<span style="color:#8b008b;font-weight:bold">false</span>;
+			
+			Arrays.<span style="color:#658b00">fill</span>(ans, -1);
+						
+			<span style="color:#8b008b;font-weight:bold">while</span>(!Q.<span style="color:#658b00">isEmpty</span>()) Q.<span style="color:#658b00">remove</span>(); <span style="color:#228b22">//或不用while直接Q.clear();
+</span><span style="color:#228b22"></span>			
+			node s=<span style="color:#8b008b;font-weight:bold">new</span> node();
+			s.<span style="color:#658b00">v</span>[0]=0;s.<span style="color:#658b00">v</span>[1]=0;s.<span style="color:#658b00">v</span>[2]=c;s.<span style="color:#658b00">vol</span>=0;	<span style="color:#228b22">//一開始杯中水量，c杯是裝滿的
+</span><span style="color:#228b22"></span>			
+			cap[0]=a;cap[1]=b;cap[2]=c;	<span style="color:#228b22">//三杯容量上限
+</span><span style="color:#228b22"></span>						
+			bfs(s);
+		}
+	}
+	
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">update_ans</span>(node u) {
+		<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> i=0;i&lt;3;i++) {
+			<span style="color:#00688b;font-weight:bold">int</span> d=u.<span style="color:#658b00">v</span>[i];
+			<span style="color:#8b008b;font-weight:bold">if</span>(ans[d]&lt;0)  <span style="color:#228b22">// 不需要 &#34;|| ans[d]&gt;u.vol)&#34;，因為PriorityQueue就是先取出最小的
+</span><span style="color:#228b22"></span>				ans[d]=u.<span style="color:#658b00">vol</span>;
+			<span style="color:#228b22">//就算用Queue加上&#34;ans[d]&gt;u.vol&#34;，排列組合的水量update_ans後會是錯的。因為先排了大的vol，update_ans(假如之後v[1]較小，取代)不會是在同一種狀態下
+</span><span style="color:#228b22"></span>		}
+	}
+	
+	<span style="color:#8b008b;font-weight:bold">public</span> <span style="color:#8b008b;font-weight:bold">static</span> <span style="color:#00688b;font-weight:bold">void</span> <span style="color:#008b45">bfs</span>(node start) {
+		vis[0][0]=<span style="color:#8b008b;font-weight:bold">true</span>;	
+		Q.<span style="color:#658b00">add</span>(start);
+		
+		<span style="color:#8b008b;font-weight:bold">while</span>(!Q.<span style="color:#658b00">isEmpty</span>()) {
+			node e=Q.<span style="color:#658b00">peek</span>();
+			Q.<span style="color:#658b00">remove</span>();  <span style="color:#228b22">//.remove() java函數庫引用的其實是.poll()
+</span><span style="color:#228b22"></span>			
+			vis[e.<span style="color:#658b00">v</span>[0]][e.<span style="color:#658b00">v</span>[1]]=<span style="color:#8b008b;font-weight:bold">true</span>;
+			update_ans(e);
+			
+			<span style="color:#8b008b;font-weight:bold">if</span>(ans[d]&gt;=0) <span style="color:#8b008b;font-weight:bold">break</span>;
+			
+			<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> i=0;i&lt;3;i++) {	<span style="color:#228b22">//倒水的
+</span><span style="color:#228b22"></span>				<span style="color:#8b008b;font-weight:bold">for</span>(<span style="color:#00688b;font-weight:bold">int</span> j=0;j&lt;3;j++) {	<span style="color:#228b22">//被倒入的
+</span><span style="color:#228b22"></span>					
+					<span style="color:#228b22">//if (i == j) continue; //對程式速度沒影響?????
+</span><span style="color:#228b22"></span>					<span style="color:#8b008b;font-weight:bold">if</span>(e.<span style="color:#658b00">v</span>[i]==0 || e.<span style="color:#658b00">v</span>[j]==cap[j]) <span style="color:#8b008b;font-weight:bold">continue</span>;
+					
+					<span style="color:#00688b;font-weight:bold">int</span> amount=Math.<span style="color:#658b00">min</span>(cap[j], e.<span style="color:#658b00">v</span>[i]+e.<span style="color:#658b00">v</span>[j])-e.<span style="color:#658b00">v</span>[j];	<span style="color:#228b22">//&#34;-e.v[j]&#34; 減掉被倒原杯中水量。
+</span><span style="color:#228b22"></span>					<span style="color:#228b22">//&#34;amount&#34;:倒出到另一杯(變動量)。 &#34;Math.min(cap[j]&#34;:不超過被倒杯子容量上限。 &#34;e.v[i]+e.v[j]&#34;:若全倒過去。
+</span><span style="color:#228b22"></span>					
+					node s=<span style="color:#8b008b;font-weight:bold">new</span> node(e);	<span style="color:#228b22">//若用複製的會牽扯到 &#34;淺拷貝&#34; &#34;深拷貝&#34;						
+</span><span style="color:#228b22"></span>					
+					s.<span style="color:#658b00">vol</span>+=amount;
+					s.<span style="color:#658b00">v</span>[i]-=amount;
+					s.<span style="color:#658b00">v</span>[j]+=amount;				
+				
+					<span style="color:#8b008b;font-weight:bold">if</span>(!vis[s.<span style="color:#658b00">v</span>[0]][s.<span style="color:#658b00">v</span>[1]]) Q.<span style="color:#658b00">add</span>(s);					
+				}
+			}
+		}
+		<span style="color:#8b008b;font-weight:bold">while</span>(d&gt;=0) {
+			<span style="color:#8b008b;font-weight:bold">if</span>(ans[d]&gt;=0) {
+				System.<span style="color:#658b00">out</span>.<span style="color:#658b00">println</span>(ans[d]+<span style="color:#cd5555">&#34; &#34;</span>+d);
+				<span style="color:#8b008b;font-weight:bold">return</span>;
+			}
+			d--;
+		}
+	}
+	
+}
+
+<span style="color:#228b22">/*
+</span><span style="color:#228b22">2
+</span><span style="color:#228b22">2 3 4 2
+</span><span style="color:#228b22">96 97 199 62
+</span><span style="color:#228b22">*/</span>
+
+</code></pre></div>
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "codersnote" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      
+            
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2021 All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://wujzan.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://wujzan.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://wujzan.github.io/plugins/search/mark.js"></script>
+
+<script src="https://wujzan.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://wujzan.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

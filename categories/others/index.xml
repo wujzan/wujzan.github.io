@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on Coder&#39;s notes</title>
+    <link>https://wujzan.github.io/categories/others/</link>
+    <description>Recent content in Others on Coder&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Aug 2021 10:07:47 +0600</lastBuildDate><atom:link href="https://wujzan.github.io/categories/others/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[轉載]UVA 題目難度分級列表</title>
+      <link>https://wujzan.github.io/blog/uva-%E9%A1%8C%E7%9B%AE%E9%9B%A3%E5%BA%A6%E5%88%86%E7%B4%9A%E5%88%97%E8%A1%A8/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva-%E9%A1%8C%E7%9B%AE%E9%9B%A3%E5%BA%A6%E5%88%86%E7%B4%9A%E5%88%97%E8%A1%A8/</guid>
+      <description>Uva難度分級列表</description>
+    </item>
+    
+  </channel>
+</rss>
