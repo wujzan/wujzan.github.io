@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CPE 1顆星精選 on Coder&#39;s notes</title>
+    <link>https://wujzan.github.io/tags/cpe-1%E9%A1%86%E6%98%9F%E7%B2%BE%E9%81%B8/</link>
+    <description>Recent content in CPE 1顆星精選 on Coder&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Aug 2021 10:07:47 +0600</lastBuildDate><atom:link href="https://wujzan.github.io/tags/cpe-1%E9%A1%86%E6%98%9F%E7%B2%BE%E9%81%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[UVA10008] What&#39;s Cryptanalysis</title>
+      <link>https://wujzan.github.io/blog/uva10008-whats-cryptanalysis/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10008-whats-cryptanalysis/</guid>
+      <description>印出字母出現次數(排列)</description>
+    </item>
+    
+    <item>
+      <title>[UVA10035] Primary Arithmetic</title>
+      <link>https://wujzan.github.io/blog/uva10035-primary-arithmetic/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10035-primary-arithmetic/</guid>
+      <description>兩數相加，共進位幾次?</description>
+    </item>
+    
+    <item>
+      <title>[UVA10038] Jolly Jumpers</title>
+      <link>https://wujzan.github.io/blog/uva10038-jolly-jumpers/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10038-jolly-jumpers/</guid>
+      <description>相鄰的2個數其差的絕對值恰好為1到n-1</description>
+    </item>
+    
+    <item>
+      <title>[UVA10071] Back to High School Physics</title>
+      <link>https://wujzan.github.io/blog/uva10071-back-to-high-school-physics/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10071-back-to-high-school-physics/</guid>
+      <description>某一粒子有一初速度和等加速度。假設在 t 秒後速度為 v ,在 2t 秒後所經過的距離是多少?</description>
+    </item>
+    
+    <item>
+      <title>[UVA10170] The Hotel with Infinite Rooms</title>
+      <link>https://wujzan.github.io/blog/uva10170-the-hotel-with-infinite-rooms/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10170-the-hotel-with-infinite-rooms/</guid>
+      <description>求第D天的旅行團人數</description>
+    </item>
+    
+    <item>
+      <title>[UVA10235] Simply Emirp</title>
+      <link>https://wujzan.github.io/blog/uva10235-simply-emirp/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10235-simply-emirp/</guid>
+      <description>判斷是否為質數</description>
+    </item>
+    
+    <item>
+      <title>[UVA10409] DieGame</title>
+      <link>https://wujzan.github.io/blog/uva10409-diegame/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10409-diegame/</guid>
+      <description>輸入指令轉動骰子，求面向上的數字</description>
+    </item>
+    
+    <item>
+      <title>[UVA10642] Can You Solve It</title>
+      <link>https://wujzan.github.io/blog/uva10642-can-you-solve-it/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10642-can-you-solve-it/</guid>
+      <description>XY平面上，給起點&amp;amp;終點座標，求步數</description>
+    </item>
+    
+    <item>
+      <title>[UVA10696] f91</title>
+      <link>https://wujzan.github.io/blog/uva10696-f91/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva10696-f91/</guid>
+      <description>計算 f91</description>
+    </item>
+    
+    <item>
+      <title>[UVA11332] Summing Digits</title>
+      <link>https://wujzan.github.io/blog/uva11332-summing-digits/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11332-summing-digits/</guid>
+      <description>各位數字相加，印出不大於10的最終數字</description>
+    </item>
+    
+    <item>
+      <title>[UVA11689] Soda Surpler</title>
+      <link>https://wujzan.github.io/blog/uva11689-soda-surpler/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11689-soda-surpler/</guid>
+      <description>空瓶換汽水問題</description>
+    </item>
+    
+    <item>
+      <title>[UVA11728] Alternate Task</title>
+      <link>https://wujzan.github.io/blog/uva11728-alternate-task/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11728-alternate-task/</guid>
+      <description>求因數和.等於S的答案數字</description>
+    </item>
+    
+    <item>
+      <title>[UVA11764] Jumping Mario</title>
+      <link>https://wujzan.github.io/blog/uva11764-jumping-mario/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11764-jumping-mario/</guid>
+      <description>求瑪莉歐 往上&amp;amp;往下跳躍次數</description>
+    </item>
+    
+    <item>
+      <title>[UVA12019] Doom&#39;s Day Algorithm</title>
+      <link>https://wujzan.github.io/blog/uva12019-dooms-day-algorithm/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva12019-dooms-day-algorithm/</guid>
+      <description>輸入 月 日，找出是星期幾</description>
+    </item>
+    
+    <item>
+      <title>[UVA12503] Robot Instructions</title>
+      <link>https://wujzan.github.io/blog/uva12503-robot-instructions/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva12503-robot-instructions/</guid>
+      <description>機器人,輸入一串移動指令,問最後位置</description>
+    </item>
+    
+    <item>
+      <title>[UVA264] Count on Cantor</title>
+      <link>https://wujzan.github.io/blog/uva264-count-on-cantor/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva264-count-on-cantor/</guid>
+      <description>1/1..1/2..2/1..3/1..2/2 找出位置是多少</description>
+    </item>
+    
+    <item>
+      <title>[UVA406] Prime Cuts</title>
+      <link>https://wujzan.github.io/blog/uva406-prime-cuts/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva406-prime-cuts/</guid>
+      <description>印出質數</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dijkstra on Coder&#39;s notes</title>
+    <link>https://wujzan.github.io/tags/dijkstra/</link>
+    <description>Recent content in Dijkstra on Coder&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Aug 2021 10:07:47 +0600</lastBuildDate><atom:link href="https://wujzan.github.io/tags/dijkstra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[UVA11374] Airport Express</title>
+      <link>https://wujzan.github.io/blog/uva11374-airport-express/</link>
+      <pubDate>Fri, 06 Aug 2021 10:07:47 +0600</pubDate>
+      
+      <guid>https://wujzan.github.io/blog/uva11374-airport-express/</guid>
+      <description>可以坐一站商業線，而其他時候只能乘坐經濟線</description>
+    </item>
+    
+  </channel>
+</rss>
